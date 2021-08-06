@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //TimePickerDialog myTimeDialog = new TimePickerDialog(MainActivity.this,myTimeListener,20,00,false);//12 hours
 
-                // Create the Date Picker Dialog to show the current date when it first appears
+                // Create the Time Picker Dialog to show the current time when it first appears
                 Calendar now = Calendar.getInstance();
                 int hourOfDay = now.get(Calendar.HOUR_OF_DAY);  // Current Hour
                 int minute = now.get(Calendar.MINUTE);  // Current Minute
